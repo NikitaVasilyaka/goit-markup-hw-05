@@ -71,34 +71,49 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: inherit;
+    text-decoration: none
+
+    
 }
+
+
+
+
+
 .header-link:hover,
 .header-link:focus {
     color: #4D5AE5;
 }
 
+
+
+
 .header-list {
     display: flex;
     margin-left: 77px;
 }
-.header-list .item {
+.header-list-item {
+    padding-left: 15px;
     padding-right: 24px;
 }
-.header-list .item:last-child {
+.header-list-item:last-child {
     padding-right: 0;
 }
+
+
 
 .comm-list {
     display: flex;
     margin-left: auto;
 }
-
-.comm-list .item {
+.comm-list-item {
     padding-right: 40px;
 }
-.comm-list .item:last-child {
+.comm-list-item:last-child {
     padding-right: 0;
 }
+
+
 
 .comm-link {
     font-size: 16px;
@@ -121,10 +136,7 @@ img {
     text-decoration: none
 }
 
-.item {
-    padding-left: 15px;
-    
-}
+
 
 
 /*---------- HERO ----------*/
